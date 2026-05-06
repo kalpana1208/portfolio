@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 180px;
+}
+
+.hero h1 {
+  font-size: 45px;
+}
+
+.hero span {
+  color: #00d4ff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00d4ff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 8%;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #203a43;
+}
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.skills-box span {
+  background: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  max-width: 800px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  color: #203a43;
+  font-weight: bold;
+}
+
+footer {
+  background: #203a43;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
